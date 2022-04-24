@@ -1,0 +1,178 @@
+.DrawerPaper > div{
+  width: 328px !important;
+  margin-top: 48px !important;
+}
+.subDrawerPaper{
+  width: 90% !important;
+  padding-bottom: 10px !important;
+}
+.DrawerPaper{
+  margin-top: 48px !important;
+}
+.profileContainer {
+    display: flex;
+    padding-left: 32px;
+    align-items: center;
+    background-image: linear-gradient(
+        to top,
+        rgba(36, 36, 36, 0.08),
+        rgba(250, 247, 246, 0)
+      ),
+      linear-gradient(to bottom, #faf7f6, #faf7f6);
+    font-family: Saira;
+    height: 112px;
+  }
+  .imageContainer {
+    height: 48px;
+    width: 48px;
+    border: 1px solid #000000;
+  }
+  .logoutSection {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: saira;
+    padding: 18px 24px 18px 24px;
+    box-shadow: 0 6px 35px 0 rgba(0, 0, 0, 0.1);
+  }
+  .logoutSectionAlign {
+    position: absolute;
+    bottom: 48px;
+    width: 100%;
+  }
+  .alignResNavSubTitleText {
+    padding: 0 16 18px 16px !important;
+  }
+  .afterDeviderTitle {
+    padding: 16px 0 16px 16px !important;
+  }
+  .listItemStyle > span {
+    align-self: stretch;
+    flex-grow: 0;
+    font-size: 14px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.57;
+    letter-spacing: normal;
+    text-align: left;
+    color: #000000;
+    font-family: Saira;
+  }
+  .alignRight {
+    text-align: right;
+    font-family: Saira;
+  }
+  .alignRight > span {
+    font-family: Saira;
+  }
+  .flexCenter > span {
+    display: flex;
+    align-items: center;
+    column-gap: 0.5em;
+    font-family: Saira;
+  }
+  .flexCenter {
+    display: flex;
+    align-items: center;
+    column-gap: 8px;
+    font-family: saira;
+  }
+  .imageStyle {
+    height: 100%;
+    width: 100%;
+  }
+  .profileText {
+    margin-left: 12px;
+    font-family: Saira;
+  }
+  .loginName {
+    font-size: 20px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.4;
+    letter-spacing: normal;
+    text-align: left;
+    color: #000000;
+    margin: 0;
+    font-family: Saira;
+  }
+  .alignResNavTitleText {
+    margin-top: 16px !important;
+  }
+  .loginDesignamtionTxt {
+    font-size: 12px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.67;
+    letter-spacing: normal;
+    text-align: left;
+    color: #6d6e71;
+    margin: 0;
+    font-family: Saira;
+  }
+  .MuiList-padding > div > li:hover {
+    background-color: #e31837;
+    color: #fff;
+  }
+  .MuiList-padding > div > li:hover a {
+    color: #fff;
+  }
+  .MuiList-padding > div > li:hover .listItemStyle > span {
+    color: #fff;
+  }
+  .MuiList-padding > div > li:hover .hoverColorWhite {
+    color: #fff;
+  }
+  .MuiList-padding > div > li:hover .subMenuIcon {
+    color: #fff;
+  }
+  .subOptionAlign {
+    padding: 0px 0 16px 0;
+  }
+  .drawerDeviderAlign {
+    margin-top: 8px;
+  }
+  .alignNavText {
+    margin-left: 0.7em;
+    font-family: Saira;
+    font-size: 16px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    margin-top: 32px;
+    letter-spacing: normal;
+    color: #000000;
+    display: inline-block;
+  }
+  .subMenuText > span {
+    font-weight: 100;
+    font-family: Saira;
+  }
+  .flexAlignItem {
+    display: flex;
+    align-items: center;
+    column-gap: 0.5em;
+    margin-left: 0.7em;
+    font-size: 1.1rem;
+    font-family: Saira;
+    margin-bottom: 19px;
+  }
+  .anchornavigationstyle {
+    text-decoration: none;
+    font-family: Saira;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.57;
+    letter-spacing: normal;
+    color: #242424;
+  }
+  .subMenuIcon {
+    min-width: 0px !important;
+  }
+  

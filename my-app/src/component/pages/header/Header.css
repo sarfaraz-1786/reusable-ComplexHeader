@@ -1,0 +1,213 @@
+.headerContainer {
+    background-color: #db233a;
+    padding: 30px;
+    font-family: Saira;
+  }
+  .ant-tooltip-inner {
+    font-family: Saira !important;
+    font-size: 16px !important;
+    font-weight: normal !important;
+  }
+  .align-toolbar {
+    width: 100% !important;
+  }
+  .logoStrip {
+    width: 101px;
+    height: 37px;
+  }
+  .logoAlignWidth {
+    position: relative;
+    left: -22px;
+  }
+  .alignLogo {
+    display: flex;
+    height: 80px;
+  }
+  .alignLogo :hover {
+    cursor: pointer;
+  }
+  header {
+    margin: 0;
+    padding: 0 !important;
+  }
+  .cursorP {
+    cursor: pointer;
+  }
+  .profile {
+    height: 24px;
+    width: 24px;
+    cursor: pointer;
+    position: relative;
+    top: 6px;
+  }
+  .logo-item {
+    padding: 0.3em 0em 0em 0em;
+    background-image: linear-gradient(
+        to top,
+        rgba(0, 0, 0, 0.32),
+        rgba(0, 0, 0, 0)
+      ),
+      linear-gradient(to bottom, #db233a, #db233a);
+  }
+  .white-clip {
+    display: flex;
+    justify-content: space-around;
+    background: #fcdddd;
+  }
+  .nav-icons {
+    display: flex;
+    justify-content: space-between;
+    background: #242424;
+    /* clip-path: polygon(6.5% 0%, 100% 0%, 100% 100%, 0% 100%); */
+    width: 30%;
+    height: 80px;
+    align-items: center;
+    padding-right: 80px;
+  }
+  .equalImageSize {
+    width: 24px;
+    height: 24px;
+  }
+  .activeRectangle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .showRectangle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .activeRectangle::before {
+    content: "";
+    position: absolute;
+    width: 48px;
+    height: 48px;
+    cursor: pointer;
+  }
+  .showRectangle::before {
+    background-color: #ffffff;
+    opacity: 0.1;
+    content: "";
+    position: absolute;
+    width: 48px;
+    height: 48px;
+  }
+  .dropDownItem:hover div {
+    display: block !important;
+  }
+  
+  .dropDownItem div:before {
+    content: "";
+    display: block !important;
+    height: 45px;
+    position: absolute;
+    left: -20px;
+    width: 35px;
+  }
+  .toolbar {
+    width: 100%;
+    padding: 0 !important;
+    display: flex;
+    justify-content: space-around;
+    font-family: Saira;
+  }
+  .appbar {
+    background: #e31837 !important;
+  }
+  .headerDropdownIcon {
+    position: relative;
+    top: 5px;
+  }
+  .headerDropdownIconActive {
+    position: relative;
+    top: 3px;
+  }
+  .strip-width {
+    height: 80px;
+  }
+  
+  .dashboard-grey-clip {
+    width: 875px;
+    height: 80px;
+    top: 8px;
+    flex-grow: 0;
+    position: fixed;
+    z-index: 1000;
+    background-color: #a7a9ac;
+    clip-path: polygon(0% 0%, 100% 0%, 95% 100%, 0% 100%);
+    animation: MoveLeft 3s ease-in-out;
+  }
+  
+  @keyframes MoveLeft {
+    0% {
+      transform: translateX(-400px);
+    }
+    100% {
+      transform: translateX(0px);
+    }
+  }
+  
+  @media screen and (max-width: 767px) {
+    .dashboard-grey-clip {
+      display: none;
+    }
+  }
+  @media only screen and (max-width: 812px) {
+    .menuContainer {
+      justify-content: flex-start !important;
+      column-gap: 1em !important;
+    }
+  }
+  @media only screen and (min-width: 1400px) {
+    .navMenuAlign,
+    .nav-icons {
+      /* justify-content: space-evenly !important; */
+      column-gap: 31px;
+    }
+  }
+  .notificationBadge {
+    width: 10px;
+    height: 10px;
+    background-color: orange;
+    border-radius: 50%;
+    position: relative;
+    top: 0.5em;
+    right: 0.5em;
+  }
+  .alignDIcon {
+    position: relative;
+    top: 0.3em;
+  }
+  .Item_item__Halds {
+    font-size: 1em !important;
+  }
+  .MuiTypography-body1 {
+    font-family: Saira !important;
+  }
+  .cursorPointer {
+    cursor: pointer;
+  }
+  
+  @media screen and (max-width: 767px) {
+    .MuiToolbar-regular {
+      min-height: 48px !important;
+    }
+    .strip-width {
+      height: 48px;
+    }
+    .nav-icons {
+      height: 48px;
+    }
+  }
+  
+  .profileStyle {
+    height: 40px !important;
+    width: 40px !important;
+    cursor: pointer;
+    position: relative;
+    top: 6px;
+    background-repeat: no-repeat !important;
+    object-fit: cover;
+  }
+  

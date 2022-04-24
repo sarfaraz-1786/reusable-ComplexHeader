@@ -1,0 +1,12 @@
+.justiFyCenter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.commonFontNormalStyle {
+  font-family: Saira !important;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: normal;
+}

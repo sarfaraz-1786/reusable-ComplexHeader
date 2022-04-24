@@ -1,0 +1,178 @@
+.fromCenter:hover,
+.fromCenter:focus,
+.fromCenter:active {
+  font-weight: bold;
+  font-family: Saira;
+}
+.fromCenter:after {
+  display: block;
+  content: "";
+  border-bottom: solid 4px #fefdfd;
+  bottom: -20.6px;
+  position: relative;
+  transform: scaleX(0);
+  transition: transform 250ms ease-in-out;
+}
+.activeRoute {
+  font-weight: bold !important;
+}
+
+.fromCenter:hover:after,
+.fromCenter:focus:after,
+.fromCenter:active:after {
+  transform: scaleX(1.3);
+}
+.activeNavTab:after {
+  transform: scaleX(1.3);
+}
+.activeNavTab {
+  font-weight: bold !important;
+}
+.activeTab {
+  font-weight: bold !important;
+}
+.dropDownItem {
+  color: #242424;
+  justify-content: space-between;
+  font-weight: 100;
+  font-size: 1em;
+  font-family: Saira;
+  white-space: normal;
+}
+.dropDownItem a {
+  color: #242424;
+  justify-content: space-between;
+  font-weight: 100;
+  font-size: 14px;
+  font-family: Saira;
+  white-space: normal;
+  text-decoration: none;
+  padding: 5px 0 5px 0;
+  width: 100%;
+}
+.dropDownSubMenuItem {
+  color: #000000 !important;
+}
+.dropDownSubMenuItem:hover {
+  color: #000000 !important;
+  background-color: rgba(219, 35, 58, 0.05) !important;
+}
+.dropDownSubMenuItem:hover .dSumMenuItem {
+  font-weight: 600 !important;
+}
+.dropDownSubMenuItem {
+  white-space: normal;
+  font-size: 14px;
+}
+.dropDownSubMenuItem a {
+  white-space: normal;
+}
+.dropDownItem:hover {
+  color: #000000 !important;
+  background-color: rgba(219, 35, 58, 0.05) !important;
+}
+.dropDownItem:hover .DMenuItem {
+  font-weight: 600 !important;
+}
+.dropDownContainer {
+  border: none;
+  background: transparent;
+  color: #ffffff;
+  flex-grow: 0;
+  padding: 0;
+  font-family: Saira;
+  font-size: 14px;
+  font-weight: 100;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 2.29;
+  letter-spacing: normal;
+  text-align: left;
+  font-family: Saira;
+}
+.dropDownContainer:hover {
+  cursor: pointer;
+}
+
+.dropDownItem > div {
+  margin-left: 24px;
+  width: 320px;
+  padding: 0 8px 0 8px;
+  border-radius: 0;
+  margin-top: 4px;
+}
+.specificMenuScroll > div {
+  top: -26.3em !important;
+}
+.specificMenuScroll > div:before {
+  top: 26em;
+}
+.ddlRoleBased > div {
+  top: -20.6em !important;
+}
+.ddlRoleBased > div:before {
+  top: 20.4em;
+}
+.coSResStyle > div > ul {
+  max-height: 18em;
+  overflow-y: auto;
+}
+.dropDownItem:hover .navigateIcon {
+  color: #db233a !important;
+}
+.navigateIcon {
+  color: #9f9f9f;
+}
+.hideNavigationDropDown > div > div > div {
+  display: none !important;
+}
+@media only screen and (max-width: 1024px) {
+  .dropDownContainer {
+    font-size: 11px !important;
+  }
+  .navMenuAlign {
+    column-gap: 20px !important;
+  }
+  .nav-icons {
+    column-gap: 24px !important;
+    cursor: pointer;
+  }
+}
+
+.dMdivider {
+  width: 328px;
+  height: 1px;
+  flex-grow: 0;
+  margin: 23px 8px 24px;
+  background-color: #ededed;
+}
+.dropDownItem:hover div {
+  display: block !important;
+}
+.rightSubMenuOption div:before {
+  content: "";
+  display: block !important;
+  height: 45px;
+  position: absolute;
+  left: 20.3em;
+  width: 35px;
+}
+.rightSubMenuOption > div {
+  margin-right: 18px !important;
+}
+.profileDropDownStyle > div > div {
+  width: 175px !important;
+}
+@media (max-width: 1024px) {
+  .fromCenter:after {
+    bottom: -24.6px;
+  }
+  .nav-icons {
+    width: 30%;
+  }
+}
+@media (max-width: 812px) {
+  .nav-icons {
+    width: 2%;
+  }
+}

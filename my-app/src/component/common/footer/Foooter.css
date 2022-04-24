@@ -2,6 +2,7 @@
     color: #000;
     padding-top: 30px;
     background-color: red;
+    position: absolute;
     bottom: 0;
     width: 100%;
 }
