@@ -55,7 +55,7 @@
 }
 .dropDownSubMenuItem:hover {
   color: #000000 !important;
-  background-color: rgba(219, 35, 58, 0.05) !important;
+  background-color: rgba(35, 219, 173, 0.05) !important;
 }
 .dropDownSubMenuItem:hover .dSumMenuItem {
   font-weight: 600 !important;
@@ -69,7 +69,7 @@
 }
 .dropDownItem:hover {
   color: #000000 !important;
-  background-color: rgba(219, 35, 58, 0.05) !important;
+  background-color: rgba(35, 219, 173, 0.05) !important;
 }
 .dropDownItem:hover .DMenuItem {
   font-weight: 600 !important;

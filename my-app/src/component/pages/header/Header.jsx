@@ -4,7 +4,7 @@ import HeaderMenu from "./headerMenu/HeaderMenu";
 import { routesConfig } from "./data";
 
 //material Import ||
-import { AppBar, Toolbar, useMediaQuery, Badge, Tooltip } from "@mui/material";
+import { AppBar, Toolbar, useMediaQuery } from "@mui/material";
 
 function Header() {
     const isMobile = useMediaQuery("(max-width:812px)");

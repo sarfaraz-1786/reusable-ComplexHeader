@@ -9,24 +9,12 @@ function DropDown({
     isMobile,
     position,
     className,
-    hidenavigationdropDown,
-    handleNavigationDropDownHide,
-    handleNavigationDropDownShow,
-    handleMouseEnter,
-    handleMouseLeave,
-    handleForRightNavigation,
-    hideTooltipRightNavigation,
-    hideTooltipRightNavigationFalse,
+    hidenavigationdropDown
 }) {
     const location = useLocation();
     const getUrlHead = location.pathname.split("/");
-    const mainDivOfNavigation = useRef(null);
 
-    //logout
-    
-  const handleLogout = () => {
-    localStorage.clear();
-  };
+
 
     //dynamic style
     const dynamicStyle = (title) => {

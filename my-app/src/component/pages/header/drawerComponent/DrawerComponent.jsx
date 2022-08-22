@@ -17,7 +17,6 @@ import {
     ListItemText,
 } from "@mui/material";
 
-
 function DrawerComponent({ drawerOpen, handleDrawerClose, routesConfig }) {
     const [title, setTitle] = useState(false);
     const [titleText, setTitleText] = useState("");
@@ -142,7 +141,7 @@ function DrawerComponent({ drawerOpen, handleDrawerClose, routesConfig }) {
                 </div>
                 <div className="profileText">
                     <p className="loginName">Test Name</p>
-                    <p className="loginDesignamtionTxt">AFS</p>
+                    <p className="loginDesignamtionTxt">LOREM</p>
                 </div>
             </div>
 
@@ -169,14 +168,14 @@ function DrawerComponent({ drawerOpen, handleDrawerClose, routesConfig }) {
                         <Divider />
                     </Container>
                     <ListItem button className="afterDeviderTitle">
-                        <ListItemText className="listItemStyle">All Portals</ListItemText>
+                        <ListItemText className="listItemStyle">LOREM IPSUM</ListItemText>
                     </ListItem>
                     <Container>
                         <Divider />
                     </Container>
 
                     <ListItem button className="afterDeviderTitle">
-                        <ListItemText className="listItemStyle">Help</ListItemText>
+                        <ListItemText className="listItemStyle">Hello There</ListItemText>
                     </ListItem>
                 </div>
             </List>
@@ -187,11 +186,13 @@ function DrawerComponent({ drawerOpen, handleDrawerClose, routesConfig }) {
 DrawerComponent.propTypes = {
     drawerOpen: PropTypes.bool,
     handleDrawerClose: PropTypes.func,
+    routesConfig: PropTypes.any,
 };
 
 DrawerComponent.defaultProps = {
     drawerOpen: false,
     handleDrawerClose: () => {},
+    routesConfig: [],
 };
 
 export default DrawerComponent;
